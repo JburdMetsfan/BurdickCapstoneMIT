@@ -70,7 +70,7 @@ function NavBar() {
             </li>
             <li className="nav-item" id='nav-allData'>
               <a className="nav-link" href="#/alldata/">
-                <span title="See all data for existing account">AllData</span>
+                <span title="See all data for existing account">User Data</span>
               </a>
             </li>
             <li className="nav-item" id='nav-logout'>
