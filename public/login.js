@@ -142,20 +142,6 @@ function Login() {
           onClick={() => props.setShow(true)}
           >Check Your Balance</button>
         </a>
-        <a href="#/deposit/">
-          <button
-          type="submit"
-          className="btn btn-light"
-          onClick={() => props.setShow(true)}
-          >Make a Deposit</button>
-        </a>
-        <a href="#/withdraw/">
-          <button
-          type="submit"
-          className="btn btn-light"
-          onClick={() => props.setShow(true)}
-          >Make a Withdrawal</button>
-        </a>
       </>
     ) : (
       <>
