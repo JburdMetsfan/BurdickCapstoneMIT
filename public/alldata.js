@@ -65,7 +65,7 @@ function AllData() {
             return (
               <Card
               txtcolor="black"
-              bgcolor="danger"
+              bgcolor="light"
               header="Account Info"
               title={`Account owner: ${user.name.toUpperCase()}`}
               key={user._id}
