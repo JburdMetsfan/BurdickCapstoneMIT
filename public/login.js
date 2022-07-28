@@ -140,7 +140,7 @@ function Login() {
           type="submit"
           className="btn btn-light"
           onClick={() => props.setShow(true)}
-          >Check Your Balance</button>
+          >Access Your Account Info</button>
         </a>
       </>
     ) : (
