@@ -48,7 +48,7 @@ function AllData() {
         <button type="button" className="btn btn-success allData-btn" onClick={() => setView1(true)}>User Data</button>
       </div>
       <div className="allData-btn-container">
-        <button type="button" className="btn btn-secondary allData-btn" onClick={() => setView1(false)}>JSON View</button>
+        <button type="button" className="btn btn-secondary allData-btn" onClick={() => setView1(false)}></button>
       </div>
     </div>
     {!view1 ? (
@@ -65,7 +65,7 @@ function AllData() {
             return (
               <Card
               txtcolor="black"
-              bgcolor="info"
+              bgcolor="danger"
               header="Account Info"
               title={`Account owner: ${user.name.toUpperCase()}`}
               key={user._id}
